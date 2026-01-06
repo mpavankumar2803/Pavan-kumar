@@ -3,25 +3,24 @@
     margin: 0px;
     background-color:black;
 }
-body{
-    height: 500px;
-}
+
 .main{
-    background-image: url(background.jpg);
+    /* background-image: url(background.png);
     background-position: center center;
     background-size: max(1200px, 100vw);
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; */
     height: 900px;
     width: auto;
-    position: relative;
+    top: 0px;
 }
 nav{
-    max-width: 65vw;
+    max-width: 95vw;
     display: flex;
     justify-content:space-between;
-    width: 1000px;
+    width: auto;
     margin: auto;
-    position: absolute;
+    position: static;
+    top: 0;
     padding: 20px 50px;
     align-items: center;
 }
@@ -38,8 +37,7 @@ nav{
     display: flex;
     flex-direction: row;
     list-style-type: none;
-    gap: 35px;
-    position: absolute;
+    gap: 55px;
 }
 nav li{
     color: white;
@@ -54,6 +52,7 @@ nav li{
 .p1{
     color: white;
 }
+
 
 
 
